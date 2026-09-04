@@ -20,7 +20,7 @@
     width:400px;
     padding:25px 35px;
     text-align:center;
-    border-radius: 20;
+    border-radius: 20px;
 
 }
 
@@ -111,6 +111,10 @@ nav .circle{
 }
 
 @media screen and (max-width: 768px) {
+
+    
+
+
     body {
         background:#333;
         min-height: 100vh;
@@ -119,5 +123,9 @@ nav .circle{
         padding: 0;
         align-items: stretch; 
 
+    }
+
+    .music-player{
+        border-radius: 0;
     }
 }
